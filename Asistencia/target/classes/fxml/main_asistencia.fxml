@@ -4,10 +4,10 @@
 <?import javafx.scene.layout.*?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pe.edu.upeu.asistencia.control.AsistenciaController">
-   <children>
-      <TextField fx:id="txtNum1" layoutX="102.0" layoutY="95.0" />
-      <TextField fx:id="txtNum2" layoutX="331.0" layoutY="95.0" />
-      <Button fx:id="btnSumar" layoutX="514.0" layoutY="95.0" mnemonicParsing="false" text="Sumar" />
-      <Label fx:id="result" layoutX="45.0" layoutY="160.0" text="Label" />
-   </children>
+    <children>
+        <TextField fx:id="txtNum1" layoutX="77.0" layoutY="89.0" />
+        <TextField fx:id="txtNum2" layoutX="244.0" layoutY="89.0" />
+        <Button fx:id="btnSumar" layoutX="413.0" layoutY="89.0" mnemonicParsing="false" onAction="#sumar" text="Sumar" />
+        <Label fx:id="result" layoutX="77.0" layoutY="137.0" text="Label" />
+    </children>
 </AnchorPane>

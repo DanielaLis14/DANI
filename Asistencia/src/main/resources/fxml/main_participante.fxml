@@ -31,14 +31,14 @@
                                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                     </columnConstraints>
                                     <rowConstraints>
-                                        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                                        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                                        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                                        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                                        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                                        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                                        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                                        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="36.0" minHeight="36.0" prefHeight="36.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="36.0" minHeight="36.0" prefHeight="36.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="36.0" minHeight="36.0" prefHeight="36.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="36.0" minHeight="36.0" prefHeight="36.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="36.0" minHeight="36.0" prefHeight="36.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="36.0" minHeight="36.0" prefHeight="36.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="36.0" minHeight="36.0" prefHeight="36.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="36.0" minHeight="36.0" prefHeight="36.0" vgrow="SOMETIMES" />
                                     </rowConstraints>
                                     <children>
                                         <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Formulario" GridPane.columnSpan="2147483647">
@@ -51,7 +51,7 @@
                                         <Label text="Apellidos" GridPane.rowIndex="3" />
                                         <Label text="Carrera:" GridPane.rowIndex="4" />
                                         <Label text="Tipo Participante:" GridPane.rowIndex="5" />
-                                        <TextField fx:id="txtDNI" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+                                        <TextField fx:id="txtDni" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1" />
                                         <TextField fx:id="txtNombres" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="2" />
                                         <TextField fx:id="txtApellidos" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="3" />
                                         <ComboBox fx:id="cbxCarrera" maxWidth="1.7976931348623157E308" prefWidth="150.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="4" />
@@ -71,7 +71,7 @@
                                                 <Insets left="5.0" />
                                             </GridPane.margin>
                                         </Button>
-                              <Label fx:id="msg" text="Label" GridPane.rowIndex="7" />
+                                        <Label fx:id="msg" prefHeight="17.0" prefWidth="402.0" text="Label" GridPane.columnSpan="2147483647" GridPane.rowIndex="7" />
                                     </children>
                                     <HBox.margin>
                                         <Insets right="5.0" />
@@ -79,7 +79,7 @@
                                 </GridPane>
                                 <AnchorPane>
                                     <children>
-                                        <TableView fx:id="tableRegPart" layoutY="14.0" />
+                                        <TableView fx:id="tableRegPart" layoutY="14.0" prefWidth="700.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
                                     </children></AnchorPane>
                             </children>
                         </HBox>
