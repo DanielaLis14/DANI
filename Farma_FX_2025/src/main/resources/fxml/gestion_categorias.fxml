@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="panelPrincipal" prefHeight="400.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pe.edu.upeu.farmafx.control.CategoriaController">
+    <top>
+        <Label text="Gestión de Categorías" BorderPane.alignment="CENTER">
+            <font><Font name="System Bold" size="24.0" /></font>
+            <BorderPane.margin><Insets top="10.0" /></BorderPane.margin>
+        </Label>
+    </top>
+    <center>
+        <TableView fx:id="tablaCategorias" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <columns>
+                <TableColumn fx:id="colId" prefWidth="50.0" text="ID" />
+                <TableColumn fx:id="colNombre" prefWidth="250.0" text="Nombre" />
+                <TableColumn fx:id="colEstado" prefWidth="100.0" text="Estado" />
+            </columns>
+            <BorderPane.margin><Insets bottom="10.0" left="10.0" right="10.0" top="10.0" /></BorderPane.margin>
+        </TableView>
+    </center>
+    <bottom>
+        <HBox alignment="CENTER" prefHeight="50.0" spacing="20.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button onAction="#nuevoAccion" prefWidth="100.0" text="Nuevo" />
+                <Button onAction="#eliminarAccion" prefWidth="100.0" text="Eliminar" />
+                <Button onAction="#volverAccion" prefWidth="180.0" text="Volver al Menú Principal" />
+            </children>
+        </HBox>
+    </bottom>
+    <right>
+        <VBox fx:id="panelEdicion" alignment="TOP_CENTER" prefWidth="250.0" spacing="10.0" style="-fx-border-color: lightgray; -fx-border-width: 0 0 0 1;">
+            <children>
+                <Label text="Detalle de Categoría">
+                    <font><Font name="System Bold" size="18.0" /></font>
+                </Label>
+                <VBox prefWidth="100.0" spacing="5.0">
+                    <children>
+                        <Label text="Nombre:" />
+                        <TextField fx:id="nombreTextField" />
+                    </children>
+                </VBox>
+                <CheckBox fx:id="activoCheckBox" text="Activo" />
+                <Button onAction="#guardarAccion" prefWidth="100.0" text="Guardar" />
+            </children>
+            <padding><Insets bottom="10.0" left="10.0" right="10.0" top="10.0" /></padding>
+        </VBox>
+    </right>
+</BorderPane>

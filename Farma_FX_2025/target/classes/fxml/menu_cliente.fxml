@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="panelPrincipal" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pe.edu.upeu.farmafx.control.MenuClienteController">
+    <top>
+        <VBox>
+            <children>
+                <MenuBar>
+                    <menus>
+                        <Menu text="Archivo">
+                            <items>
+                                <MenuItem onAction="#cerrarSesionAccion" text="Cerrar Sesión" />
+                                <MenuItem onAction="#salirAccion" text="Salir" />
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+                <Label fx:id="dniUsuarioLabel" text="Usuario: ">
+                    <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="System Italic" size="12.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+    </top>
+    <center>
+        <Label text="¡Bienvenido! Aquí se mostrarán los productos." BorderPane.alignment="CENTER">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+    </center>
+</BorderPane>
