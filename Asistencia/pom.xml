@@ -40,12 +40,14 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.openjfx/javafx-controls -->
 		<dependency>
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-controls</artifactId>
 			<version>21</version>
 		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.openjfx/javafx-fxml -->
 		<dependency>
 			<groupId>org.openjfx</groupId>
@@ -85,7 +87,6 @@
 						</exclude>
 					</excludes>
 					<mainClass>pe.edu.upeu.asistencia.Aplicacion</mainClass>
-
 				</configuration>
 			</plugin>
 		</plugins>

@@ -5,25 +5,24 @@ import javafx.fxml.FXMLLoader;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.shape.Rectangle;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
 import pe.edu.upeu.asistencia.control.AsistenciaController;
 
 @SpringBootApplication
 public class AsistenciaApplication extends Application {
-    private ConfigurableApplicationContext context;
+
+	private ConfigurableApplicationContext context;
 	private Parent parent;
 
 	public static void main(String[] args) {
 		//SpringApplication.run(AsistenciaApplication.class, args);
-		  launch(args);
+			launch(args);
 	}
 
 	@Override
@@ -40,8 +39,8 @@ public class AsistenciaApplication extends Application {
 	@Override
 	public void start(Stage stage) throws Exception {
 		Screen screen = Screen.getPrimary();
-		Rectangle2D bounds = screen.getBounds();
-		stage.setScene(new Scene( parent, bounds.getWidth(), bounds.getHeight()-100));
+		Rectangle2D bounds = screen.getVisualBounds();
+		stage.setScene(new Scene(parent, bounds.getWidth(), bounds.getHeight()-100));
 		stage.setTitle("Asistencia Example");
 		stage.show();
 	}
