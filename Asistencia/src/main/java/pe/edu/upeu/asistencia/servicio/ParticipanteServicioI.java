@@ -10,6 +10,6 @@ public interface ParticipanteServicioI {
     Participante update(Participante participante); //U
     void delete(String dni); //D
 
-    Participante findById(int index); //B
+    Participante findById(String dni); //B
 
 }

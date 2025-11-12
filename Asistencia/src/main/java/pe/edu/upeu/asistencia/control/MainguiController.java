@@ -37,7 +37,7 @@ public class MainguiController {
     @FXML
     public void initialize() {
         comboBoxEstilo.getItems().addAll("Estilo por Defecto", "Estilo Oscuro"
-        , "Estilo Azul", "Estilo Verde", "Estilo Rosado");
+                , "Estilo Azul", "Estilo Verde", "Estilo Rosado");
         comboBoxEstilo.setOnAction(event ->cambiarEstilo());
         customMenuEstilo.setHideOnClick(false);
         menu2.getItems().add(customMenuEstilo);
@@ -69,7 +69,7 @@ public class MainguiController {
 
     class MenuItemListener{
         Map<String, String[]> menuConfig=Map.of(
-               "menuItem1", new String[]{"/fxml/main_asistencia.fxml","Gestion Asistencia","T"},
+                "menuItem1", new String[]{"/fxml/main_asistencia.fxml","Gestion Asistencia","T"},
                 "menuItem2", new String[]{"/fxml/main_participante.fxml","Gestion Participantes","T"},
                 "menuItemC", new String[]{"/fxml/login.fxml","Salir","C"}
         );
