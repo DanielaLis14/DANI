@@ -107,7 +107,7 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
-                    <mainClass>pe.edu.upeu.asistencia.Aplicacion</mainClass>
+                    <mainClass>pe.edu.upeu.asistencia.AsistenciaApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
