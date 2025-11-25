@@ -1,0 +1,123 @@
+2025-11-24T10:53:14.660-05:00  INFO 5492 --- [FarmaFx] [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 25.0.1 with PID 5492 (started by AMARANTA in C:\Users\AMARANTA\Downloads\Farma_FX_2025-dev-JpaORM\Farma_FX)
+2025-11-24T10:53:14.663-05:00  INFO 5492 --- [FarmaFx] [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2025-11-24T10:53:16.056-05:00  INFO 11888 --- [FarmaFx] [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 25.0.1 with PID 11888 (started by AMARANTA in C:\Users\AMARANTA\Downloads\Farma_FX_2025-dev-JpaORM\Farma_FX)
+2025-11-24T10:53:16.059-05:00  INFO 11888 --- [FarmaFx] [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2025-11-24T10:53:17.297-05:00  INFO 5492 --- [FarmaFx] [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-24T10:53:17.297-05:00  INFO 11888 --- [FarmaFx] [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-24T10:53:17.456-05:00  INFO 11888 --- [FarmaFx] [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 146 ms. Found 15 JPA repository interfaces.
+2025-11-24T10:53:17.458-05:00  INFO 5492 --- [FarmaFx] [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 149 ms. Found 15 JPA repository interfaces.
+2025-11-24T10:53:18.246-05:00  INFO 11888 --- [FarmaFx] [JavaFX-Launcher] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-24T10:53:18.247-05:00  INFO 5492 --- [FarmaFx] [JavaFX-Launcher] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-24T10:53:18.427-05:00  INFO 5492 --- [FarmaFx] [JavaFX-Launcher] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-11-24T10:53:18.428-05:00  INFO 11888 --- [FarmaFx] [JavaFX-Launcher] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-11-24T10:53:18.523-05:00  INFO 5492 --- [FarmaFx] [JavaFX-Launcher] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-24T10:53:18.523-05:00  INFO 11888 --- [FarmaFx] [JavaFX-Launcher] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-24T10:53:19.239-05:00  INFO 11888 --- [FarmaFx] [JavaFX-Launcher] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-24T10:53:19.239-05:00  INFO 5492 --- [FarmaFx] [JavaFX-Launcher] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-24T10:53:19.320-05:00  INFO 11888 --- [FarmaFx] [JavaFX-Launcher] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-24T10:53:19.319-05:00  INFO 5492 --- [FarmaFx] [JavaFX-Launcher] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-24T10:53:19.644-05:00  INFO 5492 --- [FarmaFx] [JavaFX-Launcher] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@34b161fe
+2025-11-24T10:53:19.648-05:00  INFO 11888 --- [FarmaFx] [JavaFX-Launcher] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@31dd322b
+2025-11-24T10:53:19.648-05:00  INFO 5492 --- [FarmaFx] [JavaFX-Launcher] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-24T10:53:19.650-05:00  INFO 11888 --- [FarmaFx] [JavaFX-Launcher] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-24T10:53:19.707-05:00  INFO 11888 --- [FarmaFx] [JavaFX-Launcher] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 3.46
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-24T10:53:19.707-05:00  INFO 5492 --- [FarmaFx] [JavaFX-Launcher] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 3.46
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-24T10:53:20.900-05:00  INFO 11888 --- [FarmaFx] [JavaFX-Launcher] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-24T10:53:20.901-05:00  INFO 5492 --- [FarmaFx] [JavaFX-Launcher] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-24T10:53:20.950-05:00  INFO 5492 --- [FarmaFx] [JavaFX-Launcher] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-24T10:53:20.951-05:00  INFO 11888 --- [FarmaFx] [JavaFX-Launcher] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-24T10:53:21.450-05:00  INFO 11888 --- [FarmaFx] [JavaFX-Launcher] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-24T10:53:21.450-05:00  INFO 5492 --- [FarmaFx] [JavaFX-Launcher] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-24T10:53:23.270-05:00  INFO 5492 --- [FarmaFx] [JavaFX-Launcher] p.e.u.f.service.impl.ButtonServiceImpl   : Permisos de botones inicializados
+2025-11-24T10:53:23.289-05:00  INFO 11888 --- [FarmaFx] [JavaFX-Launcher] p.e.u.f.service.impl.ButtonServiceImpl   : Permisos de botones inicializados
+2025-11-24T10:53:23.380-05:00  INFO 5492 --- [FarmaFx] [JavaFX-Launcher] p.e.u.f.s.impl.NavigationServiceImpl     : Permisos de navegación inicializados para 4 perfiles
+2025-11-24T10:53:23.408-05:00  INFO 11888 --- [FarmaFx] [JavaFX-Launcher] p.e.u.f.s.impl.NavigationServiceImpl     : Permisos de navegación inicializados para 4 perfiles
+2025-11-24T10:53:24.545-05:00  INFO 11888 --- [FarmaFx] [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 8.93 seconds (process running for 10.362)
+2025-11-24T10:53:24.546-05:00  INFO 5492 --- [FarmaFx] [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 10.73 seconds (process running for 12.969)
+2025-11-24T10:53:24.561-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] pe.edu.upeu.farmafx.utils.StageManager   : Stage principal configurado: null
+2025-11-24T10:53:24.561-05:00  INFO 5492 --- [FarmaFx] [JavaFX Application Thread] pe.edu.upeu.farmafx.utils.StageManager   : Stage principal configurado: null
+2025-11-24T10:53:49.108-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.LoginController       : Operación async iniciada - Hilo: login-auth
+2025-11-24T10:53:49.109-05:00  INFO 11888 --- [FarmaFx] [login-auth] p.e.u.f.controller.LoginController       : Iniciando autenticación para usuario: root
+2025-11-24T10:53:49.324-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.LoginController       : Usuario root autenticado correctamente
+2025-11-24T10:53:49.369-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.farmafx.utils.CredentialManager    : Credenciales guardadas para usuario: root
+2025-11-24T10:53:49.371-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.LoginController       : Credenciales guardadas para: root
+2025-11-24T10:53:49.371-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.edu.upeu.farmafx.utils.SessionManager  : Usuario autenticado: Super Administrador
+2025-11-24T10:53:49.372-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.edu.upeu.farmafx.utils.SessionManager  : Perfil asignado: Root para usuario: Super Administrador
+2025-11-24T10:53:49.372-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.edu.upeu.farmafx.utils.SessionManager  : Login exitoso marcado para usuario: Super Administrador
+2025-11-24T10:53:49.424-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.MainGuiController     : Inicializando MainGuiModernController v14.2
+2025-11-24T10:53:49.692-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.LoginController       : Navegado a MainGui con header Windows nativo
+2025-11-24T10:53:49.695-05:00  WARN 11888 --- [FarmaFx] [JavaFX Application Thread] pe.edu.upeu.farmafx.utils.StageManager   : Stage ya configurado - sobreescribiendo con: FarmaFx - Sistema de Gestión
+2025-11-24T10:53:49.695-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] pe.edu.upeu.farmafx.utils.StageManager   : Stage principal configurado: FarmaFx - Sistema de Gestión
+2025-11-24T10:53:49.697-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.MainGuiController     : Construyendo sidebar para perfil: Root
+2025-11-24T10:53:49.697-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.s.impl.NavigationServiceImpl     : Navegación para 'Root': 11 items cargados
+2025-11-24T10:53:49.710-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.MainGuiController     : Sidebar construido: 11 items, 6 grupos
+2025-11-24T10:53:49.712-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.edu.upeu.farmafx.utils.SessionManager  : Login exitoso consumido - Toast de bienvenida mostrado
+2025-11-24T10:53:49.715-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.MainGuiController     : ✅ Login exitoso - Usuario: Super Administrador | Perfil: Root
+2025-11-24T10:53:49.715-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.MainGuiController     : Toast de bienvenida mostrado para: Super Administrador
+2025-11-24T10:53:49.716-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.MainGuiController     : MainGui v14.2 inicializado con 11 shortcuts
+2025-11-24T10:53:58.302-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Inicializando CategoriasGoldController
+2025-11-24T10:53:58.629-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Perfil: Root
+2025-11-24T10:55:37.211-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.c.ProductosGoldController        : Inicializando ProductosGoldController
+2025-11-24T10:55:37.317-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.c.ProductosGoldController        : Perfil: Root
+2025-11-24T10:55:52.134-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Inicializando CategoriasGoldController
+2025-11-24T10:55:52.182-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Perfil: Root
+2025-11-24T10:55:52.350-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Inicializando CategoriasGoldController
+2025-11-24T10:55:52.421-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Perfil: Root
+2025-11-24T10:55:58.898-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Modo NUEVO activado - Próximo ID: 34
+2025-11-24T10:56:40.355-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Inicializando CategoriasGoldController
+2025-11-24T10:56:40.400-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Perfil: Root
+2025-11-24T10:56:40.518-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Inicializando CategoriasGoldController
+2025-11-24T10:56:40.574-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Perfil: Root
+2025-11-24T10:56:40.746-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Inicializando CategoriasGoldController
+2025-11-24T10:56:40.810-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Perfil: Root
+2025-11-24T10:56:42.110-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.MarcasController      : Inicializando MarcasController
+2025-11-24T10:56:42.175-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.MarcasController      : Perfil: Root
+2025-11-24T10:56:42.263-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.MarcasController      : Inicializando MarcasController
+2025-11-24T10:56:42.295-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.MarcasController      : Perfil: Root
+2025-11-24T10:56:42.491-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.MarcasController      : Inicializando MarcasController
+2025-11-24T10:56:42.525-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.MarcasController      : Perfil: Root
+2025-11-24T10:56:44.220-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.c.ProductosGoldController        : Inicializando ProductosGoldController
+2025-11-24T10:56:44.261-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.c.ProductosGoldController        : Perfil: Root
+2025-11-24T10:56:44.406-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.c.ProductosGoldController        : Inicializando ProductosGoldController
+2025-11-24T10:56:44.465-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.c.ProductosGoldController        : Perfil: Root
+2025-11-24T10:56:44.628-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.c.ProductosGoldController        : Inicializando ProductosGoldController
+2025-11-24T10:56:44.673-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.c.ProductosGoldController        : Perfil: Root
+2025-11-24T10:56:51.327-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Inicializando CategoriasGoldController
+2025-11-24T10:56:51.360-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Perfil: Root
+2025-11-24T11:00:41.723-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Modo NUEVO activado - Próximo ID: 34
+2025-11-24T11:04:45.762-05:00  INFO 5492 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.LoginController       : Cerrando aplicación desde login moderno
+2025-11-24T11:04:45.768-05:00  INFO 5492 --- [FarmaFx] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-24T11:04:45.771-05:00  INFO 5492 --- [FarmaFx] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-24T11:04:45.775-05:00  INFO 5492 --- [FarmaFx] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-24T11:23:57.994-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.c.ProductosGoldController        : Inicializando ProductosGoldController
+2025-11-24T11:23:58.034-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.c.ProductosGoldController        : Perfil: Root
+2025-11-24T11:24:21.891-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.c.ProductosGoldController        : Modo NUEVO activado - Código: PROD-0025
+2025-11-24T11:24:35.583-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.c.ProductosGoldController        : Modo NUEVO activado - Código: PROD-0025
+2025-11-24T11:25:01.751-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.c.ProductosGoldController        : Modo NUEVO activado - Código: PROD-0025
+2025-11-24T11:34:21.638-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.c.ProductosGoldController        : Modo NUEVO activado - Código: PROD-0025
+2025-11-24T11:35:02.887-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Inicializando CategoriasGoldController
+2025-11-24T11:35:02.916-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Perfil: Root
+2025-11-24T11:36:34.967-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Modo NUEVO activado - Próximo ID: 34
+2025-11-24T11:36:56.738-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Form limpiado completamente después de guardar
+2025-11-24T11:37:12.933-05:00  INFO 11888 --- [FarmaFx] [categorias-eliminar] p.e.u.f.s.impl.CategoriaServiceImpl      : Categoría eliminada con cascada - ID: 34, Nombre: kkk, Hijas: 0, Productos huerfanizados: 0
+2025-11-24T11:37:12.956-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Eliminada - ID: 34, Nombre: kkk, Hijas: 0, Productos: 0 (0 activos, 0 inactivos)
+2025-11-24T11:37:22.709-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Modo NUEVO activado - Próximo ID: 34
+2025-11-24T11:43:53.826-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Form limpiado completamente después de guardar
+2025-11-24T11:44:08.526-05:00  INFO 11888 --- [FarmaFx] [categorias-eliminar] p.e.u.f.s.impl.CategoriaServiceImpl      : Categoría eliminada con cascada - ID: 34, Nombre: llll, Hijas: 0, Productos huerfanizados: 0
+2025-11-24T11:44:08.538-05:00  INFO 11888 --- [FarmaFx] [JavaFX Application Thread] p.e.u.f.controller.CategoriasController  : Eliminada - ID: 34, Nombre: llll, Hijas: 0, Productos: 0 (0 activos, 0 inactivos)
+2025-11-24T13:10:59.659-05:00  WARN 11888 --- [FarmaFx] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h19m3s411ms44µs800ns).
+2025-11-24T23:01:38.990-05:00  WARN 11888 --- [FarmaFx] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h50m42s436ms480µs800ns).

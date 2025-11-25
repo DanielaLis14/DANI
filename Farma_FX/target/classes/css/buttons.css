@@ -1,0 +1,178 @@
+/* ============================================
+   BUTTONS.CSS - Sistema de botones reutilizable
+   Usado por: Todos los módulos CRUD
+   Versión: 1.0
+   ============================================ */
+
+/* Botón icono secundario (reiniciar, refresh) */
+.btn-icon-secondary {
+    -fx-background-color: transparent;
+    -fx-border-color: #E2E8F0;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 8 12;
+    -fx-cursor: hand;
+}
+
+.btn-icon-secondary:hover {
+    -fx-background-color: #F8FAFC;
+    -fx-border-color: #3B82F6;
+}
+
+.icon-secondary {
+    -fx-fill: #64748B;
+}
+
+.btn-icon-secondary:hover .icon-secondary {
+    -fx-fill: #3B82F6;
+}
+
+/* Botón Primary (azul) */
+.btn-primary {
+    -fx-background-color: #3B82F6;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-background-radius: 8;
+    -fx-padding: 9 18;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(59, 130, 246, 0.25), 6, 0, 0, 2);
+}
+
+.btn-primary:hover {
+    -fx-background-color: #2563EB;
+    -fx-effect: dropshadow(gaussian, rgba(59, 130, 246, 0.35), 8, 0, 0, 3);
+}
+
+.btn-primary:pressed {
+    -fx-background-color: #1D4ED8;
+    -fx-translate-y: 1px;
+}
+
+.btn-primary:disabled {
+    -fx-background-color: #CBD5E1;
+    -fx-text-fill: #94A3B8;
+    -fx-opacity: 0.7;
+    -fx-effect: none;
+}
+
+/* Botón Success (verde) */
+.btn-success {
+    -fx-background-color: #10B981;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-background-radius: 8;
+    -fx-padding: 9 18;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(16, 185, 129, 0.25), 6, 0, 0, 2);
+}
+
+.btn-success:hover {
+    -fx-background-color: #059669;
+    -fx-effect: dropshadow(gaussian, rgba(16, 185, 129, 0.35), 8, 0, 0, 3);
+}
+
+.btn-success:pressed {
+    -fx-background-color: #047857;
+    -fx-translate-y: 1px;
+}
+
+.btn-success:disabled {
+    -fx-background-color: #CBD5E1;
+    -fx-text-fill: #94A3B8;
+    -fx-opacity: 0.7;
+}
+
+/* Botón Warning (naranja) */
+.btn-warning {
+    -fx-background-color: #F59E0B;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-background-radius: 8;
+    -fx-padding: 9 18;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(245, 158, 11, 0.25), 6, 0, 0, 2);
+}
+
+.btn-warning:hover {
+    -fx-background-color: #D97706;
+    -fx-effect: dropshadow(gaussian, rgba(245, 158, 11, 0.35), 8, 0, 0, 3);
+}
+
+.btn-warning:pressed {
+    -fx-background-color: #B45309;
+    -fx-translate-y: 1px;
+}
+
+.btn-warning:disabled {
+    -fx-background-color: #CBD5E1;
+    -fx-text-fill: #94A3B8;
+    -fx-opacity: 0.7;
+    -fx-effect: none;
+}
+
+/* Botón Danger (rojo) */
+.btn-danger {
+    -fx-background-color: #EF4444;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-background-radius: 8;
+    -fx-padding: 9 18;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(239, 68, 68, 0.25), 6, 0, 0, 2);
+}
+
+.btn-danger:hover {
+    -fx-background-color: #DC2626;
+    -fx-effect: dropshadow(gaussian, rgba(239, 68, 68, 0.35), 8, 0, 0, 3);
+}
+
+.btn-danger:pressed {
+    -fx-background-color: #B91C1C;
+    -fx-translate-y: 1px;
+}
+
+.btn-danger:disabled {
+    -fx-background-color: #CBD5E1;
+    -fx-text-fill: #94A3B8;
+    -fx-opacity: 0.7;
+}
+
+/* Botones pequeños para formulario */
+.btn-primary-small,
+.btn-secondary-small {
+    -fx-font-size: 13px;
+    -fx-padding: 7 16;
+    -fx-background-radius: 6;
+}
+
+.btn-primary-small {
+    -fx-background-color: #3B82F6;
+    -fx-text-fill: white;
+    -fx-font-weight: 600;
+    -fx-cursor: hand;
+}
+
+.btn-primary-small:hover {
+    -fx-background-color: #2563EB;
+}
+
+.btn-secondary-small {
+    -fx-background-color: transparent;
+    -fx-border-color: #E2E8F0;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 6;
+    -fx-text-fill: #64748B;
+    -fx-font-weight: 600;
+    -fx-cursor: hand;
+}
+
+.btn-secondary-small:hover {
+    -fx-background-color: #F8FAFC;
+    -fx-border-color: #CBD5E1;
+    -fx-text-fill: #475569;
+}

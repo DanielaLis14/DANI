@@ -1,0 +1,273 @@
+/* ============================================
+   DIALOG HELPER v2.0 - Diseño Oscuro Premium
+   Paleta acorde a FarmaFx (consistente con Toast)
+   Colores: #1E293B (fondo), #1f85ce (azul), #EF4444 (rojo)
+   ============================================ */
+
+/* ========== DIALOG PANE PRINCIPAL ========== */
+
+.dialog-pane {
+    -fx-background-color: #1E293B;
+    -fx-border-color: #334155;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.6), 25, 0, 0, 10);
+    -fx-padding: 0;
+}
+
+/* ========== HEADER ========== */
+
+.dialog-pane .header-panel {
+    -fx-background-color: #0F172A;
+    -fx-padding: 18 24 18 24;
+    -fx-background-radius: 0;
+    -fx-border-color: #334155;
+    -fx-border-width: 0 0 2 0;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: white;
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+}
+
+/* ========== CONTENT AREA ========== */
+
+.dialog-pane .content {
+    -fx-padding: 24;
+    -fx-background-color: #1E293B;
+}
+
+.dialog-pane .content .label {
+    -fx-text-fill: #E2E8F0;
+    -fx-font-size: 14px;
+    -fx-line-spacing: 4;
+    -fx-wrap-text: true;
+}
+
+/* Mensaje principal (más destacado) */
+.dialog-message-header {
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-weight: 600;
+}
+
+/* Mensaje secundario (normal) */
+.dialog-message-content {
+    -fx-text-fill: #CBD5E1;
+    -fx-font-size: 13px;
+    -fx-wrap-text: true;
+}
+
+/* Texto de advertencia */
+.dialog-warning-text {
+    -fx-text-fill: #FCD34D;
+    -fx-font-size: 13px;
+    -fx-font-weight: 500;
+    -fx-wrap-text: true;
+    -fx-padding: 12 16 12 16;
+    -fx-background-color: rgba(245, 158, 11, 0.15);
+    -fx-background-radius: 4;
+    -fx-border-color: #F59E0B;
+    -fx-border-width: 1;
+    -fx-border-radius: 4;
+}
+
+/* ========== BUTTON BAR ========== */
+
+.dialog-pane .button-bar {
+    -fx-padding: 16 24 20 24;
+    -fx-spacing: 10;
+    -fx-background-color: #1E293B;
+    -fx-background-radius: 0;
+}
+
+/* ========== BOTONES CUSTOM ========== */
+
+.dialog-button {
+    -fx-background-color: #334155;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: 500;
+    -fx-padding: 11 22 11 22;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+    -fx-border-width: 0;
+    -fx-min-width: 110;
+}
+
+.dialog-button:hover {
+    -fx-background-color: #475569;
+}
+
+.dialog-button:pressed {
+    -fx-background-color: #1E293B;
+}
+
+/* Botón Primario (acción principal) */
+.dialog-button-primary {
+    -fx-background-color: #1f85ce;
+}
+
+.dialog-button-primary:hover {
+    -fx-background-color: #1a6ba8;
+}
+
+.dialog-button-primary:pressed {
+    -fx-background-color: #155a8a;
+}
+
+/* Botón Secundario (acción alternativa) */
+.dialog-button-secondary {
+    -fx-background-color: #475569;
+}
+
+.dialog-button-secondary:hover {
+    -fx-background-color: #64748B;
+}
+
+.dialog-button-secondary:pressed {
+    -fx-background-color: #334155;
+}
+
+/* Botón Peligro (eliminar, destructivo) */
+.dialog-button-danger {
+    -fx-background-color: #EF4444;
+}
+
+.dialog-button-danger:hover {
+    -fx-background-color: #DC2626;
+}
+
+.dialog-button-danger:pressed {
+    -fx-background-color: #B91C1C;
+}
+
+/* Botón Advertencia (acciones con precaución) */
+.dialog-button-warning {
+    -fx-background-color: #F59E0B;
+    -fx-text-fill: #1E293B;
+}
+
+.dialog-button-warning:hover {
+    -fx-background-color: #D97706;
+}
+
+.dialog-button-warning:pressed {
+    -fx-background-color: #B45309;
+}
+
+/* Botón Éxito (confirmar, aceptar) */
+.dialog-button-success {
+    -fx-background-color: #10B981;
+}
+
+.dialog-button-success:hover {
+    -fx-background-color: #059669;
+}
+
+.dialog-button-success:pressed {
+    -fx-background-color: #047857;
+}
+
+/* Botón Cancelar (transparente con borde) */
+.dialog-button-cancel {
+    -fx-background-color: transparent;
+    -fx-text-fill: #94A3B8;
+    -fx-border-color: #475569;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 4;
+}
+
+.dialog-button-cancel:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.05);
+    -fx-text-fill: #CBD5E1;
+    -fx-border-color: #64748B;
+}
+
+.dialog-button-cancel:pressed {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ========== TIPOS DE DIÁLOGO (Border Colors) ========== */
+
+/* Cascada Inactivar (amarillo advertencia) */
+.dialog-cascada-inactivar {
+    -fx-border-color: #F59E0B;
+}
+
+/* Cascada Activar (verde éxito) */
+.dialog-cascada-activar {
+    -fx-border-color: #10B981;
+}
+
+/* Eliminar (rojo peligro) */
+.dialog-eliminar {
+    -fx-border-color: #EF4444;
+}
+
+/* Error (rojo) */
+.dialog-error {
+    -fx-border-color: #EF4444;
+}
+
+/* Info (azul) */
+.dialog-info {
+    -fx-border-color: #1f85ce;
+}
+
+/* Advertencia (amarillo) */
+.dialog-advertencia {
+    -fx-border-color: #F59E0B;
+}
+
+/* Éxito (verde) */
+.dialog-exito {
+    -fx-border-color: #10B981;
+}
+
+/* Confirmación (azul suave) */
+.dialog-confirmar {
+    -fx-border-color: #3B82F6;
+}
+
+/* ========== ICONOS (opcional para futuro) ========== */
+
+.dialog-icon {
+    -fx-font-size: 32px;
+    -fx-text-fill: white;
+    -fx-min-width: 40;
+    -fx-pref-width: 40;
+    -fx-alignment: center;
+}
+
+.dialog-icon-success {
+    -fx-text-fill: #10B981;
+}
+
+.dialog-icon-error {
+    -fx-text-fill: #EF4444;
+}
+
+.dialog-icon-warning {
+    -fx-text-fill: #F59E0B;
+}
+
+.dialog-icon-info {
+    -fx-text-fill: #1f85ce;
+}
+
+/* ========== ANIMACIONES (hover effects) ========== */
+
+.dialog-pane:hover {
+    /* Efecto sutil al pasar cursor (opcional) */
+}
+
+/* ========== RESPONSIVE (opcional) ========== */
+
+.dialog-pane {
+    -fx-min-width: 400;
+    -fx-max-width: 550;
+    -fx-pref-width: 480;
+}
