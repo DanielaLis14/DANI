@@ -1,0 +1,94 @@
+/* ============================================
+   SEARCH.CSS - Barra de búsqueda reutilizable
+   Usado por: SearchHelper, CRUD modules
+   Versión: 1.0
+   ============================================ */
+
+/* Contenedor de búsqueda con icono integrado */
+.search-container {
+    -fx-background-color: white;
+    -fx-border-color: #E2E8F0;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-padding: 0;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.04), 6, 0, 0, 2);
+}
+
+.search-container:hover {
+    -fx-border-color: #CBD5E1;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.08), 8, 0, 0, 3);
+}
+
+/* Estado focus - Borde azul grueso + sombra azul intensa (clase dinámica desde Java) */
+.search-container.focused {
+    -fx-border-color: #3B82F6 !important;
+    -fx-border-width: 2;
+    -fx-background-color: #F0F9FF;
+    -fx-effect: dropshadow(gaussian, rgba(59, 130, 246, 0.25), 12, 0, 0, 4) !important;
+}
+
+/* Icono de lupa */
+.search-icon-wrapper {
+    -fx-padding: 0 10 0 14;
+}
+
+.search-icon {
+    -fx-fill: #94A3B8;
+}
+
+/* Icono azul cuando está en focus (clase dinámica desde Java) */
+.search-container.focused .search-icon {
+    -fx-fill: #3B82F6;
+}
+
+/* Campo de búsqueda sin bordes */
+.search-input {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 10 8;
+    -fx-font-size: 14px;
+    -fx-text-fill: #0F172A;
+    -fx-prompt-text-fill: #94A3B8;
+    -fx-background-insets: 0;
+    -fx-border-insets: 0;
+}
+
+.search-input:focused {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-insets: 0;
+}
+
+/* Botón X para limpiar búsqueda */
+.search-clear-btn {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-padding: 6 10;
+    -fx-background-radius: 6;
+}
+
+/* Hover - Sin fondo, solo cambiar el icono */
+.search-clear-btn:hover {
+    -fx-background-color: transparent;
+}
+
+/* Icono X - gris por defecto */
+.clear-icon {
+    -fx-fill: #94A3B8;
+}
+
+/* Hover - Icono rojo */
+.search-clear-btn:hover .clear-icon {
+    -fx-fill: #EF4444;
+}
+
+/* Cuando el buscador está en focus, el icono X es más visible */
+.search-container.focused .clear-icon {
+    -fx-fill: #64748B;
+}
+
+/* Hover en estado focus - Icono rojo */
+.search-container.focused .search-clear-btn:hover .clear-icon {
+    -fx-fill: #EF4444;
+}

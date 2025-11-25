@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!--
+    *** MainGui v11.0 - Sidebar Simple Scrolleable ***
+    Fecha: 2025-11-16
+
+    Características:
+    ✔ Items planos (sin grupos desplegables)
+    ✔ ScrollPane vertical (NO horizontal)
+    ✔ Separadores visuales sutiles (sin texto)
+    ✔ Iconos fijos en StackPane de 40px
+    ✔ Colapso/expansión sidebar 220px ↔ 60px
+-->
+
+<BorderPane prefHeight="800" prefWidth="1200" styleClass="main-gui-root" stylesheets="@../../css/main-modern.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pe.edu.upeu.farmafx.controller.MainGuiController">
+
+    <!-- ===============================================
+         SIDEBAR CON SCROLLPANE
+         =============================================== -->
+    <left>
+        <VBox fx:id="sidebar" maxWidth="220" minWidth="220" prefWidth="220" spacing="0" styleClass="sidebar-container">
+
+            <!-- HEADER: Hamburguesa -->
+            <HBox alignment="CENTER_LEFT" minHeight="-Infinity" prefHeight="61.0" styleClass="sidebar-header">
+                <padding>
+                    <Insets bottom="15" left="18" right="15" top="15" />
+                </padding>
+                <Button fx:id="btnToggleSidebar" onAction="#toggleSidebar" styleClass="sidebar-toggle-button">
+                    <graphic>
+                        <FontAwesomeIconView glyphName="BARS" size="20" styleClass="sidebar-toggle-icon" />
+                    </graphic>
+                </Button>
+            </HBox>
+
+            <!-- ScrollPane: SOLO VERTICAL -->
+            <!-- ScrollPane: SOLO VERTICAL -->
+            <!-- Items se construyen dinámicamente desde MainGuiModernController.construirSidebarDinamico() -->
+            <ScrollPane fitToWidth="true" hbarPolicy="NEVER" styleClass="sidebar-scroll-pane" VBox.vgrow="ALWAYS">
+                <VBox fx:id="sidebarItemsContainer" spacing="0">
+                    <!-- Items se construyen dinámicamente desde NavigationService -->
+                </VBox>
+            </ScrollPane>
+
+        </VBox>
+    </left>
+
+    <!-- ===============================================
+         CENTRO (simple para testing)
+         =============================================== -->
+    <center>
+        <VBox styleClass="main-content">
+
+            <!-- TOP BAR simple -->
+            <HBox alignment="CENTER_LEFT" spacing="15" styleClass="top-bar">
+                <Label fx:id="lblPageTitle" styleClass="page-title" text="Dashboard" />
+                <Region HBox.hgrow="ALWAYS" />
+                <HBox fx:id="userChip" alignment="CENTER" spacing="6" styleClass="user-chip">
+                    <FontAwesomeIconView glyphName="USER_CIRCLE" size="18" styleClass="user-chip-icon" />
+                    <Label fx:id="lblUserName" styleClass="user-chip-label" text="Admin" />
+                    <FontAwesomeIconView fx:id="iconCaret" glyphName="CHEVRON_RIGHT" size="10" styleClass="user-chip-caret" />
+                </HBox>
+            </HBox>
+
+            <!-- Contenedor dinámico para vistas -->
+            <StackPane fx:id="contentArea" VBox.vgrow="ALWAYS">
+                <VBox alignment="CENTER" spacing="20">
+                <Label styleClass="hero-title" text="🚀 PROTOTIPO MainGui v7.0" />
+                    <Label styleClass="hero-description" text="Clic en hamburguesa para probar collapse/expand" />
+                    <Label styleClass="hero-highlight" text="Objetivo: Iconos NUNCA deben moverse" />
+                </VBox>
+            </StackPane>
+
+        </VBox>
+    </center>
+
+</BorderPane>

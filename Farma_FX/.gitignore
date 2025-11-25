@@ -1,0 +1,59 @@
+# ============================================
+# FarmaFX - .gitignore
+# ============================================
+
+# ========== Maven ==========
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ========== IntelliJ IDEA ==========
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# ========== Eclipse ==========
+.classpath
+.project
+.settings/
+bin/
+
+# ========== VS Code ==========
+.vscode/
+
+# ========== Sistema ==========
+.DS_Store
+Thumbs.db
+
+# ========== Logs ==========
+*.log
+
+# ========== Base de datos SQLite ==========
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+data/*.db
+!data/.gitkeep
+
+# ========== Reportes generados (PDFs) ==========
+src/main/resources/generated_reports/*.pdf
+!src/main/resources/generated_reports/.gitkeep
+
+# ========== Archivos temporales ==========
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# ========== Claude Code ==========
+.claude/settings.local.json
+
+# ========== AI Helpers ==========
+.qwen/
+.cursor/
+.claude/
